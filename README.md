@@ -31,7 +31,7 @@ In the folder [Resources/](/SurfsUp/Resources/).
 Contains all the CSV data.
 
 ## Jupyter notebook file 
-[climate_starter.ipynb](/SurfsUP/climate_starter.ipynb)  
+[climate_starter.ipynb](/SurfsUp/climate_starter.ipynb)  
 This file is used to do the Part 1 analysis.
 - Precipitation Analysis. Produces a graph of precipitation from all stations for the last year.
 - Station Analysis. A temperature summary is produced for the most active station on the island. A temperature graph is produced.
