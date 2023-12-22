@@ -7,7 +7,7 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 Use Python and SQLAlchemy to do a basic climate analysis and data exploration of a climate database. More specifically, using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 ### Part 2: Design a Climate App
-Design a Flask API based on the queries that you just developed
+A Flask API is designed based on the queries that were developed in Part 1.
 
 ## Contents  
 - [Directory structure](#Directory-structure)
