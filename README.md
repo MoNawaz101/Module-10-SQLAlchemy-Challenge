@@ -19,7 +19,7 @@ A Flask API is designed based on the queries that were developed in Part 1.
 ## Directory structure 
 The root directory contains:  
 - [SurfsUp](/SurfsUp) - This folder contains the Jupyter notebook and Python analysis files as well as Resources folder.  
-- [SurfsUP/Resources](/SurfsUP/Resources)  - This folder contains the original CSV files and an SQLlite database.
+- [SurfsUP/Resources](/SurfsUp/Resources/)  - This folder contains the original CSV files and an SQLlite database.
 
 ## CSV files 
 These are the original CSV files provided for the challenge in the [SurfsUP/Resources/](/SurfsUP/Resources/) folder.
