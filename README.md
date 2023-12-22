@@ -27,7 +27,7 @@ These are the original CSV files provided for the challenge in the [SurfsUP/Reso
 - hawaii_measurements.csv - Precipitation and temperature data for all the stations collected per day.
 
 ## Sqlite Database
-In the folder [Resources/](/SurfsUP/Resources/).
+In the folder [Resources/](/SurfsUp/Resources/).
 Contains all the CSV data.
 
 ## Jupyter notebook file 
