@@ -156,7 +156,7 @@ def tobs():
 # Part 2: 5. Temperature Summary Given a Start Date
 @app.route("/api/v1.0/<start>")
 def Temp_summary1(start):
-    """Calculate the min, max and average temp from the start date supplied by the user to the end of the dataset or a 404 if not."""
+    """Calculate the min, max and average temp from the start date supplied by the user to the end of the dataset."""
 
     upper_date = datetime.strptime("2017-08-23", '%Y-%m-%d')
     lower_date = datetime.strptime("2010-01-01", '%Y-%m-%d')
@@ -165,6 +165,7 @@ def Temp_summary1(start):
         # formatting the date using strptime() function
         start_date = datetime.strptime(start, '%Y-%m-%d')
         
+        # Error check to see if the date requested doesn't exceed the range of dates available
         if (start_date > upper_date):
             return("Date is beyond the upper date range of 2017-08-23. No data exists beyond this date")
         elif (start_date < lower_date):
@@ -189,7 +190,7 @@ def Temp_summary1(start):
 # Part 2: 5. Temperature Summary Given a Start and an End Date
 @app.route("/api/v1.0/<start>/<end>")
 def Temp_summary2(start,end):
-    """Calculate the min, max and average temp from the start date supplied by the user to the end of the dataset or a 404 if not."""
+    """Calculate the min, max and average temp from the start date supplied by the user to the end of the dataset."""
 
     upper_date = datetime.strptime("2017-08-23", '%Y-%m-%d')
     lower_date = datetime.strptime("2010-01-01", '%Y-%m-%d')
@@ -200,6 +201,8 @@ def Temp_summary2(start,end):
         # convert end_date to datetime and add 1 day because otherwise the datetime will be yyyy-mm-dd 00:00:00
         # when converted which will not include data from the last day.
         end_date = datetime.strptime(end, '%Y-%m-%d') + relativedelta(days=1)
+
+        # Error check to see if the dates requested don't exceed the range of dates available and the dates are the correct way around.
         if (end_date > upper_date):
             return("Date is beyond the upper date range of 2017-08-23. No data exists beyond this date.")
         elif (start_date < lower_date):
