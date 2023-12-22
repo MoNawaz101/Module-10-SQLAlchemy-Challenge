@@ -17,7 +17,7 @@ Design a Flask API based on the queries that you just developed
 - [Python file](#Python-files)
 
 ## Directory structure 
-The root directory contain a folder  
+The root directory contains:  
 - [SurfsUp](/SurfsUp) - This folder contains the Jupyter notebook and Python analysis files as well as Resources folder.  
 - [SurfsUP/Resources](/SurfsUP/Resources/)  - This folder contains the original CSV files and an SQLlite database.
 
