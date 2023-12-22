@@ -14,7 +14,6 @@ A Flask API is designed based on the queries that were developed in Part 1.
 - [CSV files](#CSV-files)
 - [Sqlite Database](#Sqlite-Database)
 - [Analysis files](#Analysis-files)
-- [Python file](#Python-files)
 
 ## Directory structure 
 The root directory contains:  
