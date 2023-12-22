@@ -13,7 +13,7 @@ A Flask API is designed based on the queries that were developed in Part 1.
 - [Directory structure](#Directory-structure)
 - [CSV files](#CSV-files)
 - [Sqlite Database](#Sqlite-Database)
-- [Jupyter notebook file](#Jupyter-notebook-file)
+- [Analysis files](#Analysis-files)
 - [Python file](#Python-files)
 
 ## Directory structure 
@@ -22,7 +22,7 @@ The root directory contains:
 - [SurfsUP/Resources](/SurfsUp/Resources/)  - This folder contains the original CSV files and an SQLlite database.
 
 ## CSV files 
-These are the original CSV files provided for the challenge in the [SurfsUP/Resources/](/SurfsUP/Resources/) folder.
+These are the original CSV files provided for the challenge in the [SurfsUP/Resources/](/SurfsUp/Resources/) folder.
 - hawaii_stations.csv  -  Data on the weather stations in Hawaii that collected the weather data.
 - hawaii_measurements.csv - Precipitation and temperature data for all the stations collected per day.
 
@@ -30,7 +30,7 @@ These are the original CSV files provided for the challenge in the [SurfsUP/Reso
 In the folder [Resources/](/SurfsUp/Resources/).
 Contains all the CSV data.
 
-## Jupyter notebook file 
+## Analysis files
 [climate_starter.ipynb](/SurfsUp/climate_starter.ipynb)  
 This file is used to do the Part 1 analysis.
 - Precipitation Analysis. Produces a graph of precipitation from all stations for the last year.
